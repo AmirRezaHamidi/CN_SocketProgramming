@@ -1,0 +1,68 @@
+{
+    "root": {
+        "domains": {
+            "com": {
+                "google.com": {
+                    "ip": "192.168.1.100",
+                    "port": "11001",
+                    "subdomain": {
+                        "sub1.google.com": {
+                            "ip": "192.168.1.107",
+                            "port": "11001"
+                        },
+                        "sub2.google.com": {
+                            "ip": "192.168.1.105",
+                            "port": "11009"
+                        }
+                    }
+                },
+                "yahoo.com": {
+                    "ip": "192.168.1.200",
+                    "port": "12001",
+                    "subdomain": {
+                        "sub1.yahoo.com": {
+                            "ip": "192.168.1.210",
+                            "port": "12008"
+                        },
+                        "sub2.yahoo.com": {
+                            "ip": "192.168.1.213",
+                            "port": "12008"
+                        }
+                    }
+                }
+            },
+            "edu": {
+                "cambridge.edu": {
+                    "ip": "192.168.2.100",
+                    "port": "21001",
+                    "subdomain": {
+                        "sub1.cambridge.edu": {
+                            "ip": "192.168.2.101",
+                            "port": "21001"
+                        },
+                        "sub2.cambridge.edu": {
+                            "ip": "192.168.2.104",
+                            "port": "21000"
+                        }
+                    }
+                }
+            },
+            "org": {
+                "gov.org": {
+                    "ip": "192.168.3.100",
+                    "port": "31005",
+                    "subdomain": {
+                        "sub1.gov.org": {
+                            "ip": "192.168.3.108",
+                            "port": "31003"
+                        },
+                        "sub2.gov.org": {
+                            "ip": "192.168.3.106",
+                            "port": "31005"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
