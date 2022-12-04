@@ -2,7 +2,10 @@
 
 In this project, you are going to implement a web system using python. A web system in its simplest form comprises three components. These components are web client, web server, and DNS server. In the real world, each of the mentioned components is an intricate software system with enormous implementation considerations, but here you will implement a simplified version of these systems.
 
+<p align="center">
  <img src="Images/Overall%20System.png" >
+</p>
+
 In this simplified web system, a user enters a request using the web client. Then web client finds the request’s destination IP address and port from the DNS server. After that, the web client sends a request to the appropriate web server, and the web server searches in its file directory for the requested file. If the file exists, it sends back found file. Otherwise, replies with a 404 NOT FOUND.
 
 ## Part 1: DNS server
@@ -55,9 +58,11 @@ c.	Create a response and send it back to the client.
 
 ## Part 2: Web Server
 Your web server listens on port 8080 for any incoming HTTP requests. After receiving a request, this server looks in its file directories for requested files. If it finds the requested file, send back that file. Otherwise, it sends back 404 NOT FOUND. A sample file directory structure for this web server can be seen below.
-
-<img src="Images/Directory.png" >
  
+<p align="center">
+ <img src="Images/Directory.png"  >
+</p>
+
 As you can see, this sample directory structure has similarities to our previous example, which was the DNS server’s database file.
 
 Notes
