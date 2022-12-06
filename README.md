@@ -108,4 +108,4 @@ In this request, the web server looks for test.txt inside folder tests. The fold
 3.	Printing received result
 4.	Repeating steps 1 to 3 until the user enters the exit command.
 
-Further detail is available in the workreport.pdf File.
+Further Details are Available at Work Report.pdf file.
