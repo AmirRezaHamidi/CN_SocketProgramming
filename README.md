@@ -107,3 +107,5 @@ In this request, the web server looks for test.txt inside folder tests. The fold
 2.	Upon receiving a command from the user, do as explained.
 3.	Printing received result
 4.	Repeating steps 1 to 3 until the user enters the exit command.
+
+Further detail is available in the workreport.pdf File.
